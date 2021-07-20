@@ -24,7 +24,7 @@ class Application(tk.Frame):
         # 現在選択されているoptionmenu Widget内の選択肢の値を、文字列変数として扱う。
         # StringVarについて : https://kuroro.blog/python/K53voPjJuKFfYrjmP8FP/
         var = tk.StringVar()
-        # set() : 初期値としてaaaの値を設定する。
+        # set() : 初期値としてaaaの選択肢を設定する。
         var.set('aaa')
 
         # frame Widget(Frame)を親要素として、optionmenu Widgetを作成する。
